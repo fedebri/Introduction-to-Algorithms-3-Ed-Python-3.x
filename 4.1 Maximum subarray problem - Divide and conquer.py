@@ -25,6 +25,7 @@ def findmax_xsubarray (array, low, mid, high):
     
 
 def findmax_subarray (array, low, high):
+    #Returns both the lowest and the highest index of the max subarray and the sum of the values in the subarray
 
     if high == low:
         return (low, high, array[low])
